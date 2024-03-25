@@ -1,0 +1,6 @@
+[submodule "DataBase/DataBase"]
+	path = DataBase/DataBase
+	url = https://github.com/Anewri32/MDataBase.git
+[submodule "DataBase/MDataBase"]
+	path = DataBase/MDataBase
+	url = https://github.com/Anewri32/MDataBase.git
