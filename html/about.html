@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+    <div class="container-fluid mt-7">
+        <div class="row mb-4">
+            <section class="col-lg-4 mb-8 tm-px-3">
+                <div class="tm-box-bordered p-5">
+                    <h3 class="tm-title-gray mb-3">Message from the CEO</h3>
+                    <hr class="mb-4 tm-hr tm-hr-s">
+                    <p class="mb-4">Donec convallis orci id scelerisque convallis. Suspendisse varius sapien mauris.
+                        Proin accumsan.</p>
+                    <p class="mb-5">Quisque accumsan lorem sed bibendum vehicula. Aenean gravida, nunc ac bibendum
+                        bibendum.</p>
+                    <div class="text-right">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </section>
+            <div class="col-lg-4 col-md-6 mb-8 tm-px-3">
+                <figure class="tm-about-person-layout">
+                    <img src="{% static 'img/about-01.jpg' %}" alt="Image" class="img-fluid mb-5">
+                    <figcaption>
+                        <h3 class="mb-4">
+                            <span class="text-primary">Erik Morris</span>&nbsp;
+                            <span class="small tm-text-gray">(Founder and CEO)</span>
+                        </h3>
+                        <p>Quisque lacinia arcu sit amet est sollicitudin, ut hendrerit augue egestas. Donec accumsan
+                            justo sit amet orci interdum.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-8 tm-px-3">
+                <figure class="tm-about-person-layout">
+                    <img src="{% static 'img/about-02.jpg' %}" alt="Image" class="img-fluid mb-5">
+                    <figcaption>
+                        <h3 class="mb-4">
+                            <span class="text-primary">Michael Owen</span>&nbsp;
+                            <span class="small tm-text-gray">(Co-founder / CTO)</span>
+                        </h3>
+                        <p>In bibendum dignissim nulla, vitae rutrum enim interdum quis. Quisque erat velit, gravida
+                            quis lectus sit amet, mattis ullamcorper diam.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-8 tm-px-3">
+                <figure class="effect-milo tm-about-person tm-about-person-layout">
+                    <img src="{% static 'img/about-03.jpg' %}" alt="Image" class="img-fluid">
+                    <figcaption>
+                        <h2><span>Mary Kay</span>&nbsp;&nbsp;(Marketing Director)</h2>
+                        <p class="mb-4">Manages the marketing function with emphasis on championing the brand and
+                            expanding the customer base.</p>
+                        <p>
+                            <a href="https://linkedin.com" class="tm-social-link">
+                                <i class="fab fa-linkedin fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                            <a href="https://twitter.com" class="tm-social-link">
+                                <i class="fab fa-twitter fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                            <a href="https://youtube.com" class="tm-social-link">
+                                <i class="fab fa-youtube fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-8 tm-px-3">
+                <figure class="effect-milo tm-about-person tm-about-person-layout">
+                    <img src="{% static 'img/about-04.jpg' %}" alt="Image" class="img-fluid">
+                    <figcaption>
+                        <h2><span>Jen Terry</span>&nbsp;&nbsp;(Finance Director)</h2>
+                        <p class="mb-4">Plans and manages all large scale financial functions of the business.</p>
+                        <p>
+                            <a href="https://linkedin.com" class="tm-social-link">
+                                <i class="fab fa-linkedin fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                            <a href="https://twitter.com" class="tm-social-link">
+                                <i class="fab fa-twitter fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                            <a href="https://youtube.com" class="tm-social-link">
+                                <i class="fab fa-youtube fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-8 tm-px-3">
+                <figure class="effect-milo tm-about-person tm-about-person-layout">
+                    <img src="{% static 'img/about-05.jpg' %}" alt="Image" class="img-fluid">
+                    <figcaption>
+                        <h2><span>Levi Moore</span>&nbsp;&nbsp;(Creative Director)</h2>
+                        <p class="mb-4">Implements concepts, guidelines and strategies in various creative projects and
+                            oversees them to completion</p>
+                        <p>
+                            <a href="https://linkedin.com" class="tm-social-link">
+                                <i class="fab fa-linkedin fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                            <a href="https://twitter.com" class="tm-social-link">
+                                <i class="fab fa-twitter fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                            <a href="https://youtube.com" class="tm-social-link">
+                                <i class="fab fa-youtube fa-15x tm-social-icon tm-social-icon-2"></i>
+                            </a>
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div id="parallax-3" class="parallax-window parallax-window-2" data-parallax="scroll"
+        data-image-src="{% static 'img/biz-oriented-footer-3.jpg' %}">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tm-overlay p-5 mx-auto text-center">
+                        <p class="mb-5 text-white">Here is a text paragraph to join our team. This is a parallax image
+                            background section. Phasellus interdum lobortis ultrices. Cras nulla nulla, fermentum vel ligula in.</p>
+                        <a href="#" class="btn btn-primary">Join Our Team</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-7">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 mb-4">
+                <h3 class="tm-title-gray mb-4">About the business oriented</h3>
+                <hr class="mb-5 tm-hr">
+                <p class="mb-5">
+            Business Oriented Template is free HTML CSS layout made for your corporate or <a href="https://templatemo.com/tag/digital-marketing" target="_blank">digital marketing</a> websites. You can download, edit, and apply this template. </p>
+                <p class="mb-5">
+                    If you wish to support us via PayPal, feel free to <a href="https://templatemo.com/contact" target="_blank">contact us</a>. Please do not re-distribute the
+                template ZIP file on any template collection website. Thank you. </p>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-4 mr-0 ml-auto">
+                <h3 class="tm-title-gray mb-4">History of our company</h3>
+                <hr class="mb-5 tm-hr">
+                <p class="mb-5">
+                    Aenean placerat neque fermentum diam malesuada, eget pretium felis elementum. Ut aliquam imperdiet
+                    velit quis imperdiet. Aliquam facilisis commodo tristique.
+                </p>
+                <p class="mb-5">
+                    Nam feugiat, sem vitae mollis auctor, est dolor suscipit massa, vitae consectetur erat elit vel dui.
+                    Phasellus pellentesque in urna at imperdiet. Nulla euismod nibh bibendum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
